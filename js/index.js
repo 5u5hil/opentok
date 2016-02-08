@@ -37,9 +37,9 @@ var app = {
 
       // Sign up for an OpenTok API Key at: https://tokbox.com/signup
       // Then generate a sessionId and token at: https://dashboard.tokbox.com
-      var apiKey = ""; // INSERT YOUR API Key
-      var sessionId = ""; // INSERT YOUR SESSION ID
-      var token = ""; // INSERT YOUR TOKEN
+      var apiKey = "45463682"; // INSERT YOUR API Key
+      var sessionId = "2_MX40NTQ2MzY4Mn5-MTQ1Mjg2NDQ4MDQ3N35VTGhiY1NaRTJMZVEzRHNJc2YyRUNwblh-fg"; // INSERT YOUR SESSION ID
+      var token = "T1==cGFydG5lcl9pZD00NTQ2MzY4MiZzaWc9OThmODQxNjFiMzc5MTE0MWVkZWY5N2Q3YWJlNzYwYjQ4MDkwZGViNjpzZXNzaW9uX2lkPTJfTVg0ME5UUTJNelk0TW41LU1UUTFNamcyTkRRNE1EUTNOMzVWVEdoaVkxTmFSVEpNWlZFelJITkpjMll5UlVOd2JsaC1mZyZjcmVhdGVfdGltZT0xNDU0OTIzNDIyJnJvbGU9cHVibGlzaGVyJm5vbmNlPTE0NTQ5MjM0MjIuMTg2MjExOTUyNzM3NjU="; // INSERT YOUR TOKEN
 
       // Very simple OpenTok Code for group video chat
       var publisher = TB.initPublisher(apiKey,'myPublisherDiv');
