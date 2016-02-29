@@ -9,6 +9,4 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
-    <plugin name="com.tokbox.cordova.opentok" spec="1.0.3" source="pgb" />
-
 </widget>
