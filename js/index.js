@@ -50,7 +50,7 @@ var app = {
             var div = document.createElement('div');
             div.setAttribute('id', 'stream' + event.stream.streamId);
             document.body.appendChild(div);
-            session.subscribe( event.stream, div.id, {subscribeToAudio: false} );
+            session.subscribe( event.stream, div.id );
         }
       });
       session.connect(token, function(){
